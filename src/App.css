@@ -408,8 +408,6 @@ body {
 }
 /* END OF UBICATION SECTION */
 
-
-
 /* EXPERIENCES SECTION */
     .experiences-container {
       height: 950px;
@@ -483,7 +481,7 @@ body {
 /* CONTACT SECTION */
     .contact-container {
       background: #eeeeee;
-      height: 90vh;
+      height: 100vh;
       width: 100%;
       display: flex;
       justify-content: center;
