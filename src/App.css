@@ -365,6 +365,9 @@ body {
 /* UBICATION SECTION */
 .ubication-container {
   height: 100vh;
+  background: var(--main-color);
+  display: flex;
+  justify-content: center;
 }
 .ubication-row {
   width: 100%;
@@ -392,7 +395,7 @@ body {
   cursor: pointer;
 }
 .ubication-subtitle {
-  color: #787976;
+  color: #ffffff;
   align-items: center;
   display: flex;
 }

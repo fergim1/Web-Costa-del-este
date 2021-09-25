@@ -17,6 +17,19 @@ export const Sidebar = ({ open, toggle }) => {
       </div>
       <div className='sidebar-wrapper'>
           <ul className='sidebar-menu-ul'>
+            
+            <LinkScroll to="casa-grande" 
+              className='sidebar-link-scroll'
+              onClick={ toggle }
+              smooth={true}
+              duration={500}
+              spy={true}
+              exact='true'
+              offset={-80}
+            >
+              5 Personas
+            </LinkScroll>
+            
             <LinkScroll to="casa-chica" 
               className='sidebar-link-scroll'
               onClick={ toggle }
@@ -29,17 +42,6 @@ export const Sidebar = ({ open, toggle }) => {
               3 Personas
             </LinkScroll>
 
-            <LinkScroll to="casa-grande" 
-              className='sidebar-link-scroll'
-              onClick={ toggle }
-              smooth={true}
-              duration={500}
-              spy={true}
-              exact='true'
-              offset={-80}
-            >
-              5 Personas
-            </LinkScroll>
             
             <LinkScroll to="ubication" 
               className='sidebar-link-scroll'
@@ -60,7 +62,7 @@ export const Sidebar = ({ open, toggle }) => {
               duration={500}
               spy={true}
               exact='true'
-              offset={-90}
+              offset={-80}
             >
               Contacto
             </LinkScroll>

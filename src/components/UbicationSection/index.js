@@ -5,8 +5,8 @@ import { MdPlace } from "react-icons/md";
 
 export const UbicationSection = () => {
     return (
-        <div className='container ubication-container' id='ubication'>
-            <div className='row ubication-row'>
+        <div className='ubication-container' id='ubication'>
+            <div className='container row ubication-row'>
             
                 <div className=' col ubication-wrapper'>
                     <p className='ubication-up-title'>Ubicación</p>

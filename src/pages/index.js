@@ -21,8 +21,8 @@ export const OnePage = () => {
             <Sidebar open={ open } toggle={ toggle }/>
             <Navbar toggle={ toggle }/>
             <HomeSection/>
-            <SmallHouse/>
             <BigHouse/>
+            <SmallHouse/>
             <UbicationSection/>
             <ContactSection/>
             <WhatsappButton/>

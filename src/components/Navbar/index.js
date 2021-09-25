@@ -31,18 +31,6 @@ export const Navbar = ({ toggle }) => {
                     </div>
                     <ul className='nav-ul'>
                         <li className='nav-li'>
-                            <LinkScroll to='casa-chica'
-                                className='nav-li-links' 
-                                smooth={true}
-                                duration={500}
-                                spy={true}
-                                exact='true'
-                                offset={-80}
-                            >
-                              3 Personas
-                            </LinkScroll>
-                        </li>
-                        <li className='nav-li'>
                             <LinkScroll to='casa-grande'
                                 className='nav-li-links' 
                                 smooth={true}
@@ -52,6 +40,18 @@ export const Navbar = ({ toggle }) => {
                                 offset={-80}
                             >
                                 5 Personas
+                            </LinkScroll>
+                        </li>
+                        <li className='nav-li'>
+                            <LinkScroll to='casa-chica'
+                                className='nav-li-links' 
+                                smooth={true}
+                                duration={500}
+                                spy={true}
+                                exact='true'
+                                offset={-80}
+                            >
+                              3 Personas
                             </LinkScroll>
                         </li>
                         <li className='nav-li'>
