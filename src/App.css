@@ -196,7 +196,7 @@ body {
       justify-content: center;
       align-items: center;
       padding: 0 30px;
-      height: 650px;
+      height: 100vh;
       position: relative;
       z-index: 1;
     }
