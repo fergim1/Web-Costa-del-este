@@ -1,8 +1,6 @@
 import React from "react";
 import { FaTimes } from 'react-icons/fa';
 import { Link as LinkScroll } from 'react-scroll';
-// import { Link as LinkRouter } from 'react-router-dom';
-
 
 
 export const Sidebar = ({ open, toggle }) => {
@@ -62,20 +60,13 @@ export const Sidebar = ({ open, toggle }) => {
               duration={500}
               spy={true}
               exact='true'
-              offset={-80}
+              offset={-10}
             >
               Contacto
             </LinkScroll>
 
           </ul> 
-        {/* <div className='sidebar-wrapper-button'>
-            <LinkRouter 
-              to='/'
-              className='sidebar-button'
-            >
-              Ubication
-            </LinkRouter>
-        </div> */}
+     
       </div>
     </aside>
   );
