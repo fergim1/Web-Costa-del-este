@@ -1,5 +1,7 @@
 import React from 'react'
 import imgBackground from '../../images/frente-casa4.jpg'
+import imgBackgroundMobile from '../../images/casa-frente-mobile.jpg'
+
 
 
 export const HomeSection = () => {
@@ -9,7 +11,10 @@ export const HomeSection = () => {
             
             <div className='home-background'>
                 <img className='home-image-background' src={ imgBackground } alt='home-backgrond' />
-            </div>    
+            </div>   
+            <div className='home-background-mobile'>
+                <img className='home-image-background-mobile' src={ imgBackgroundMobile } alt='home-backgrond' />
+            </div>  
 
             <div className='home-content'>
 

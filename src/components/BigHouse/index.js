@@ -99,7 +99,7 @@ export const BigHouse = () => {
 
                                 <div className='casa-column-2-item casa-grande-font-color'>
                                     <FaRuler className='casa-column-2-icon'/>                          
-                                    <h6 className='casa-column-2-item-title'>100 metros cuadrados</h6>
+                                    <h6 className='casa-column-2-item-title'>200 metros cuadrados</h6>
                                 </div> 
 
                                 <div className='casa-column-2-item casa-grande-font-color'>

@@ -87,7 +87,7 @@ export const SmallHouse = () => {
 
                                 <div className='casa-column-2-item'>
                                     <FaRuler className='casa-column-2-icon'/>                          
-                                    <h6 className='casa-column-2-item-title'>65 metros cuadrados</h6>
+                                    <h6 className='casa-column-2-item-title'>70 metros cuadrados</h6>
                                 </div> 
 
                                 <div className='casa-column-2-item'>

@@ -114,7 +114,7 @@ body {
   align-items: center;
   top: 0px;
   left: 0px;
-  transition: 0.3s ease-in-out;
+  transition: opacity, top 0.3s ease-in-out;
   opacity: 0;
   top: -100%;
 }
@@ -215,7 +215,7 @@ body {
       -o-object-fit: cover;
       object-fit: cover;
       background: #232a34;
-      filter:brightness(0.4);
+      filter:brightness(0.6);
     }
     .home-content {
       z-index: 3;
@@ -260,6 +260,9 @@ body {
     .home-button:hover {
       background: #1B0071;
       color: white;
+    }
+    .home-background-mobile {
+      display: none;
     }
 /*  END OF HOME SECTION */
 
@@ -920,6 +923,28 @@ body {
   /* HOME 450px*/
   .home-title{
     font-size: 60px;
+  }
+  .home-background {
+    display: none;
+  }
+  .home-background-mobile {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+  }
+  .home-image-background-mobile {
+    object-fit: cover;
+    background: #232a34;
+  }
+  .home-content {
+    bottom: 14%
   }
 
   /* US 450px*/
