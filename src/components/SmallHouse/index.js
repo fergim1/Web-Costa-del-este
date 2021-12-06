@@ -1,10 +1,10 @@
 import React from "react";
+import { Carousel } from 'react-responsive-carousel';
 import { MdAirlineSeatIndividualSuite } from "react-icons/md";
 import { GiBarbecue, GiWaterDrop } from "react-icons/gi";
 import { FaBath, FaTv, FaWifi, FaRuler} from "react-icons/fa";
+import { CgSmartHomeRefrigerator } from "react-icons/cg";
 
-import "react-responsive-carousel/lib/styles/carousel.min.css"
-import { Carousel } from 'react-responsive-carousel';
 import img1 from '../../images/casa-3-personas/1.JPG'
 import img2 from '../../images/casa-3-personas/2.JPG'
 import img3 from '../../images/casa-3-personas/3.JPG'
@@ -14,6 +14,9 @@ import img6 from '../../images/casa-3-personas/6.jpg'
 import img7 from '../../images/casa-3-personas/7.JPG'
 import img8 from '../../images/frente-casa2.jpg'
 import img9 from '../../images/frente-noche.jpg'
+
+import "react-responsive-carousel/lib/styles/carousel.min.css"
+
 
 export const SmallHouse = () => {
   return (
@@ -99,6 +102,11 @@ export const SmallHouse = () => {
                                     <GiWaterDrop className='casa-column-2-icon'/>                          
                                     <h6 className='casa-column-2-item-title'>Filtro de agua en toda la casa</h6>
                                 </div> 
+
+                                <div className='casa-column-2-item'>
+                                    <CgSmartHomeRefrigerator className='casa-column-2-icon'/>                          
+                                    <h6 className='casa-column-2-item-title'>Heladera con freezer</h6>
+                                </div>   
 
                             </div>
                         </div>

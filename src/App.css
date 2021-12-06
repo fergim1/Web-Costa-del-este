@@ -380,8 +380,8 @@ body {
 .row {
   overflow-y:inherit
 }
-.ubication-wrappper {
-  /* margin-top: 50px; */
+.ubication-wrapper {
+  margin-top: 50px;
 }
 .ubication-up-title {
   color: var(--second-color);
@@ -768,10 +768,6 @@ body {
 
 
 @media screen and (max-width: 768px) {
-  /* .home-image-background {
-    width: 100%;
-    height: 100%;
-  } */
 
   /* NAVBAR  768px*/
   .nav-div-icon-menu {
@@ -873,7 +869,6 @@ body {
   /* CONTACT SECTION 768px */
   .contact-container {
     padding: 100px 0;
-    /* height: 700px; */
   }
   .contact-form {
     margin-left: 0;
@@ -894,7 +889,10 @@ body {
     font-size: 20px !important;
   }
 
-
+  /* UBICATION SECTION 768px*/
+  .ubication-wrapper {
+    margin-top: 0px;
+  }
 
   /* FOOTER 768px*/
   .footer-links-container {

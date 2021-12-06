@@ -2,6 +2,7 @@ import React from 'react'
 import Map from './Map'
 import { MdPlace } from "react-icons/md";
 
+const API_KEY = 'AIzaSyBjHd88u0lhK_921tzJyrdMUQF9oD8baRc'
 
 export const UbicationSection = () => {
     return (
@@ -22,7 +23,7 @@ export const UbicationSection = () => {
                 <div>
                     <Map
                         isMarkerShown 
-                        googleMapURL='https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyBjHd88u0lhK_921tzJyrdMUQF9oD8baRc'
+                        googleMapURL={`https://maps.googleapis.com/maps/api/js?v=3.exp&key=${API_KEY}`}
                         containerElement={<div className='ubication-map-border' style={{ height: `400px` }} />}
                         mapElement={<div style={{ height: `100%` }} />}
                         loadingElement={<div style={{ height: `100%` }} />}

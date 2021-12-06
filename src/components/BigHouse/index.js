@@ -1,10 +1,10 @@
 import React from "react";
+import { Carousel } from 'react-responsive-carousel';
 import { MdAirlineSeatIndividualSuite } from "react-icons/md";
 import { GiBarbecue, GiWaterDrop } from "react-icons/gi";
 import { FaBath, FaTv, FaWifi, FaRuler} from "react-icons/fa";
+import { CgSmartHomeRefrigerator } from "react-icons/cg";
 
-import "react-responsive-carousel/lib/styles/carousel.min.css"
-import { Carousel } from 'react-responsive-carousel';
 import img1 from '../../images/casa-5-personas/1.jpg'
 import img2 from '../../images/casa-5-personas/2.jpg'
 import img3 from '../../images/casa-5-personas/3.jpg'
@@ -17,6 +17,9 @@ import img9 from '../../images/casa-5-personas/9.jpg'
 import img10 from '../../images/casa-5-personas/10.jpg'
 import img11 from '../../images/frente-casa2.jpg'
 import img12 from '../../images/frente-noche.jpg'
+
+import "react-responsive-carousel/lib/styles/carousel.min.css"
+
 
 export const BigHouse = () => {
   return (
@@ -99,7 +102,7 @@ export const BigHouse = () => {
 
                                 <div className='casa-column-2-item casa-grande-font-color'>
                                     <FaRuler className='casa-column-2-icon'/>                          
-                                    <h6 className='casa-column-2-item-title'>200 metros cuadrados</h6>
+                                    <h6 className='casa-column-2-item-title'>130 metros cuadrados</h6>
                                 </div> 
 
                                 <div className='casa-column-2-item casa-grande-font-color'>
@@ -111,6 +114,11 @@ export const BigHouse = () => {
                                     <GiWaterDrop className='casa-column-2-icon'/>                          
                                     <h6 className='casa-column-2-item-title'>Filtro de agua en toda la casa</h6>
                                 </div> 
+
+                                <div className='casa-column-2-item casa-grande-font-color'>
+                                    <CgSmartHomeRefrigerator className='casa-column-2-icon'/>                          
+                                    <h6 className='casa-column-2-item-title'>Heladera con freezer</h6>
+                                </div>                                 
 
                             </div>
                         </div>
